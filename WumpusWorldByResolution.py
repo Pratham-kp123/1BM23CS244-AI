@@ -75,7 +75,7 @@ if __name__ == "__main__":
     result = resolution_entailment(KB, query)
     print("\n==================== RESULT ====================")
     if result:
-        print(f"✅ The KB ENTAILS {query} → It is TRUE based on KB")
+        print(f" The KB ENTAILS {query} → It is TRUE based on KB")
     else:
-        print(f"❌ The KB DOES NOT ENTAIL {query} → Cannot prove it")
+        print(f" The KB DOES NOT ENTAIL {query} → Cannot prove it")
     print("================================================")
